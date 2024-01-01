@@ -1,0 +1,143 @@
+body {
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===================== /UTILITES =====================*/
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ===================== /UTILITES =====================*/
+
+/* ===================== COMPONENTS =====================*/
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: rgb(73, 153, 233);
+  border: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn svg {
+  fill: currentColor;
+}
+
+/* ===================== /COMPONENTS =====================*/
+
+/* ===================== HEADER =====================*/
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  margin-right: 100px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-btn {
+  margin-left: auto;
+}
+/* ===================== /HEADER =====================*/
+
+/* ===================== HERO =====================*/
+
+.hero-container {
+  padding: 150px 0;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.hero-title {
+  margin-bottom: 30px;
+}
+
+/* ===================== /HERO =====================*/
+
+/* ===================== SECTION =====================*/
+
+.section-container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* ===================== /SECTION =====================*/
+
+/* ===================== /FOOTER =====================*/
+
+.footer-container {
+  padding: 50px 0;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+/* ===================== /FOOTER =====================*/
