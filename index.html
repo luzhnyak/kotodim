@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Котодім</title>
 
+    <link rel="shortcut icon" href="./images/cat.svg" type="image/x-icon" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,143 +34,201 @@
       </div>
     </header>
 
-    <main>
-      <!-- HERO -->
-      <section class="hero-section">
-        <div class="hero-container container">
-          <div class="hero-images-wrapper">
-            <div class="hero-img-1">
-              <img class="hero-img" src="./images/hero-1.jpg" alt="" />
-              <div class="hero-img-title">
-                <p>Коти та їхні чудові навички: від полювання до загадкових здібностей</p>
-              </div>
-            </div>
-            <div class="hero-img-2">
-              <img class="hero-img" src="./images/hero-2.jpg" alt="" />
-              <div class="hero-img-title">
-                <p>Коти в літературі та мистецтві: від Егіпетських богів до сучасних майстрів</p>
-              </div>
-            </div>
-            <div class="hero-img-3">
-              <img class="hero-img" src="./images/hero-2.jpg" alt="" />
-              <div class="hero-img-title">
-                <p>Котячі породи для активних власників: як вибрати компаньйона</p>
-              </div>
-            </div>
+    <main class="main">
+      <div class="container">
+        <!-- HERO -->
+        <section class="hero-section">
+          <div class="hero-container">
+            <ul class="hero-list list">
+              <li class="hero-item">
+                <a href="">
+                  <picture>
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./images/hero-1.jpg 1x, ./images/hero-1@2x.jpg 2x"
+                    />
+                    <source
+                      media="(min-width: 320px) and (max-width: 767px)"
+                      srcset="./images/hero-1-small.jpg"
+                    />
+                    <img class="hero-img" src="./images/hero-1-small.jpg" alt="Cat" />
+                  </picture>
+
+                  <div class="overlay">
+                    <h3 class="hero-img-title">
+                      Коти та їхні чудові навички: від полювання до загадкових здібностей
+                    </h3>
+                  </div>
+                </a>
+              </li>
+              <li class="hero-item">
+                <a href="">
+                  <img
+                    class="hero-img"
+                    src="./images/hero-2.jpg"
+                    srcset="./images/hero-2.jpg 1x, ./images/hero-2@2x.jpg 2x"
+                    alt="Cat"
+                  />
+                  <div class="overlay">
+                    <h3 class="hero-img-title">
+                      Коти в літературі та мистецтві: від Егіпетських богів до сучасних майстрів
+                    </h3>
+                  </div>
+                </a>
+              </li>
+              <li class="hero-item">
+                <a href="">
+                  <img
+                    class="hero-img"
+                    src="./images/hero-2.jpg"
+                    srcset="./images/hero-2.jpg 1x, ./images/hero-2@2x.jpg 2x"
+                    alt="Cat"
+                  />
+                  <div class="overlay">
+                    <h3 class="hero-img-title">
+                      Котячі породи для активних власників: як вибрати компаньйона
+                    </h3>
+                  </div>
+                </a>
+              </li>
+            </ul>
           </div>
-        </div>
-      </section>
-
-      <div class="main container">
-        <section class="articles-container">
-          <article class="article">
-            <img class="article-img" src="./images/article-1.jpg" />
-            <div class="article-content">
-              <h3 class="article-title">Найпопулярніші породи котів: який кіт підходить вам?</h3>
-              <p class="article-text">
-                Вивчіть найпопулярніші породи котів і їхні особливості, щоб зробити інформований
-                вибір, який підходить саме вам.
-              </p>
-            </div>
-          </article>
-
-          <article class="article">
-            <img class="article-img" src="./images/article-2.jpg" />
-            <div class="article-content">
-              <h3 class="article-title">
-                Як піклуватися про вашого пухнастого друга: догляд за котом
-              </h3>
-              <p class="article-text">
-                Дізнайтеся про основні аспекти догляду за котом, включаючи годування, гігієну та
-                взаємодію з вашим улюбленцем.
-              </p>
-            </div>
-          </article>
-
-          <article class="article">
-            <img class="article-img" src="./images/article-3.jpg" />
-            <div class="article-content">
-              <h3 class="article-title">Забавні факти про котів, які вас здивують</h3>
-              <p class="article-text">
-                Веселі та цікаві факти про котів, які піднімуть вам настрій та розкажуть про їхні
-                унікальність.
-              </p>
-            </div>
-          </article>
-
-          <article class="article">
-            <img class="article-img" src="./images/article-4.jpg" />
-            <div class="article-content">
-              <h3 class="article-title">Історія та культурна значущість котів в усьому світ</h3>
-              <p class="article-text">
-                Вивчіть, як коти впливали на культури різних народів та дізнайтеся історію спільного
-                життя людей і котів.
-              </p>
-            </div>
-          </article>
         </section>
 
-        <section>
-          <h2 class="social-title">Соцмережі</h2>
-          <ul class="social-list list">
-            <li class="social-item instagram">
-              <a href="" class="social-link">
-                <svg class="social-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-                230.000
-              </a>
-            </li>
-            <li class="social-item youtube">
-              <a href="" class="social-link">
-                <svg class="social-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-youtube"></use>
-                </svg>
-                230.000
-              </a>
-            </li>
-            <li class="social-item github">
-              <a href="" class="social-link">
-                <svg class="social-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-github"></use>
-                </svg>
-                230.000
-              </a>
-            </li>
-            <li class="social-item tiktok">
-              <a href="" class="social-link">
-                <svg class="social-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-tiktok"></use>
-                </svg>
-                230.000
-              </a>
-            </li>
-            <li class="social-item twitter">
-              <a href="" class="social-link">
-                <svg class="social-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-                230.000
-              </a>
-            </li>
-            <li class="social-item facebook">
-              <a href="" class="social-link">
-                <svg class="social-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-                230.000
-              </a>
-            </li>
-          </ul>
-        </section>
+        <section class="longread">
+          <div class="articles-container">
+            <a href="" class="article">
+              <img
+                class="article-img"
+                src="./images/article-1.jpg"
+                srcset="./images/article-1.jpg 1x, ./images/article-1@2x.jpg 2x"
+                alt="Cat"
+              />
+              <div class="article-content">
+                <h3 class="article-title">Найпопулярніші породи котів: який кіт підходить вам?</h3>
+                <p class="article-text">
+                  Вивчіть найпопулярніші породи котів і їхні особливості, щоб зробити інформований
+                  вибір, який підходить саме вам.
+                </p>
+              </div>
+            </a>
 
-        <!-- <section>
-          <h2>Відео з пухнастиками</h2>
-        </section> -->
+            <a href="" class="article">
+              <img
+                class="article-img"
+                src="./images/article-2.jpg"
+                srcset="./images/article-2.jpg 1x, ./images/article-2@2x.jpg 2x"
+                alt="Cat"
+              />
+              <div class="article-content">
+                <h3 class="article-title">
+                  Як піклуватися про вашого пухнастого друга: догляд за котом
+                </h3>
+                <p class="article-text">
+                  Дізнайтеся про основні аспекти догляду за котом, включаючи годування, гігієну та
+                  взаємодію з вашим улюбленцем.
+                </p>
+              </div>
+            </a>
+
+            <a href="" class="article">
+              <img
+                class="article-img"
+                src="./images/article-3.jpg"
+                srcset="./images/article-3.jpg 1x, ./images/article-3@2x.jpg 2x"
+                alt="Cat"
+              />
+              <div class="article-content">
+                <h3 class="article-title">Забавні факти про котів, які вас здивують</h3>
+                <p class="article-text">
+                  Веселі та цікаві факти про котів, які піднімуть вам настрій та розкажуть про їхні
+                  унікальність.
+                </p>
+              </div>
+            </a>
+
+            <a href="" class="article">
+              <img
+                class="article-img"
+                src="./images/article-4.jpg"
+                srcset="./images/article-4.jpg 1x, ./images/article-4@2x.jpg 2x"
+                alt="Cat"
+              />
+              <div class="article-content">
+                <h3 class="article-title">Історія та культурна значущість котів в усьому світ</h3>
+                <p class="article-text">
+                  Вивчіть, як коти впливали на культури різних народів та дізнайтеся історію
+                  спільного життя людей і котів.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <section class="social-container">
+            <h2 class="social-title">Соцмережі</h2>
+            <ul class="social-list list">
+              <li class="social-item instagram">
+                <a href="" class="social-link">
+                  <svg class="social-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                  <span>230.000</span>
+                </a>
+              </li>
+              <li class="social-item youtube">
+                <a href="" class="social-link">
+                  <svg class="social-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-youtube"></use>
+                  </svg>
+                  230.000
+                </a>
+              </li>
+              <li class="social-item github">
+                <a href="" class="social-link">
+                  <svg class="social-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-github"></use>
+                  </svg>
+                  230.000
+                </a>
+              </li>
+              <li class="social-item tiktok">
+                <a href="" class="social-link">
+                  <svg class="social-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-tiktok"></use>
+                  </svg>
+                  230.000
+                </a>
+              </li>
+              <li class="social-item twitter">
+                <a href="" class="social-link">
+                  <svg class="social-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                  230.000
+                </a>
+              </li>
+              <li class="social-item facebook">
+                <a href="" class="social-link">
+                  <svg class="social-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                  230.000
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="video-container">
+            <h2 class="video-title">Відео з пухнастиком</h2>
+            <a href="">
+              <img
+                src="./images/video.jpg"
+                srcset="./images/video.jpg 1x, ./images/video@2x.jpg 2x"
+                alt="Cat"
+            /></a>
+          </section>
+        </section>
       </div>
-
-      <section></section>
-      <section></section>
     </main>
 
     <!-- FOOTER -->
